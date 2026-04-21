@@ -1,14 +1,27 @@
+Parterapi 
 
- Couples Therapy
+About the Game
+Parterapi is a browser-based Memory / Concentration game for up to 4 players, where players flip cards to find matching pairs. The game features smooth flip animations and an engaging visual experience powered by Three.js.
+Flip two cards at a time, remember their positions, and try to match them all using as few attempts as possible.
 
-**Prerequisites**
-Run:
-npm install ws
+How It Works
+* Game state and logic run on a Node.js server
+* The browser handles rendering and user interaction using Three.js
+* Communication happens in real time via WebSockets
 
-**Concept:**
-A classic *Memory / Concentration* game played in the browser. Cards are laid out face-down. The player flips two cards at a time, trying to find matching pairs.
+Prerequisites
+Make sure you have Node.js installed.
 
-**Key idea for this assignment:**
-- The **game logic and state live on the Node server**
-- The **browser is only responsible for visuals and interaction**
-- Visual feedback (flip animations, matched states) makes the game engaging
+Installation
+1. Clone the repository: git clone <https://github.com/Timalm90/Parterapi/> cd Parterapi
+2. Install dependencies: npm install
+
+Running the Application
+Start the server:
+npm start
+Then open your browser and navigate to:
+http://localhost:3000
+Technology Stack
+* Three.js — 3D graphics and rendering
+* Node.js — server-side runtime
+* WebSocket (ws) — real-time communication between client and server
