@@ -1,38 +1,55 @@
 # Parterapi
 
-## About the Game
+Parterapi is a browser-based memory (concentration) game for up to four players. Players flip cards to find matching pairs using memory and strategy.
 
-Parterapi is a browser-based Memory / Concentration game for up to 4 players, where players flip cards to find matching pairs. The game features smooth flip animations and an engaging visual experience powered by Three.js.
+The game features smooth animations and a visual experience powered by Three.js.
 
-Flip two cards at a time, remember their positions, and try to match them all using as few attempts as possible.
+---
+
+## Features
+
+- Multiplayer memory game (up to 4 players)
+- Smooth card flip animations
+- Real-time gameplay using WebSockets
+- 3D-rendered interface with Three.js
+
+---
 
 ## How It Works
 
-* Game state and logic run on a Node.js server
-* The browser handles rendering and user interaction using Three.js
-* Communication happens in real time via WebSockets
+- Game state and logic run on a Node.js server  
+- The browser handles rendering and user interaction using Three.js  
+- Client and server communicate in real time via WebSockets  
+
+---
 
 
-## Prerequisites
+## Getting Started
 
-Make sure you have Node.js installed.
+### Prerequisites
 
-## Installation
+- Node.js installed
+
+---
+
+### Installation
 
 1. Clone the repository:
 
-   ```bash
-   git clone https://github.com/Timalm90/Parterapi
-   cd Parterapi
-   ```
+```bash
+git clone https://github.com/Timalm90/Parterapi
+cd Parterapi
+```
 
 2. Install dependencies:
 
-   ```bash
-   npm install
-   ```
+```bash
+npm install
+```
 
-## Running the Application
+---
+
+### Running the Application
 
 Start the server:
 
@@ -40,14 +57,17 @@ Start the server:
 npm start
 ```
 
-Then open your browser and navigate to:
+Then open:
 
 ```
 http://localhost:3000
 ```
 
+---
+
 ## Technology Stack
 
-* Three.js — 3D graphics and rendering
-* Node.js — server-side runtime
-* WebSocket (`ws`) — real-time communication between client and server
+- Three.js — 3D rendering  
+- Node.js — server runtime  
+- WebSocket (`ws`) — real-time communication  
+
