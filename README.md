@@ -1,4 +1,7 @@
 # Parterapi
+![Node.js](https://img.shields.io/badge/Node.js-339933?logo=node.js&logoColor=white)
+![Three.js](https://img.shields.io/badge/Three.js-black?logo=three.js)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript)
 
 Parterapi is a browser-based memory (concentration) game for up to four players. Players flip cards to find matching pairs using memory and strategy.
 
